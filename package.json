@@ -1,0 +1,42 @@
+{
+  "name": "@hurevo/skills",
+  "version": "1.0.0",
+  "description": "Hurevo AI coding skills manager for OpenCode, Claude Code, Cursor, and Windsurf",
+  "type": "module",
+  "bin": {
+    "hurevo-skills": "./cli.js"
+  },
+  "files": [
+    "cli.js",
+    "src/",
+    "skills/"
+  ],
+  "scripts": {
+    "test": "node --test src/**/*.test.js",
+    "lint": "eslint src/ cli.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "ora": "^8.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "hurevo",
+    "opencode",
+    "claude-code",
+    "ai-skills",
+    "coding-agent"
+  ],
+  "author": "Hurevo",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.2"
+  }
+}
