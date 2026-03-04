@@ -18,10 +18,6 @@ program
   .description('Install one or more skills into the current project or globally')
   .option('-g, --global', 'Install to global config (~/.config/opencode/skills/)')
   .option('--agent <agent>', 'Target agent: opencode | claude | cursor | windsurf | all', 'all')
-  .example('hurevo-skills add hurevo-laravel')
-  .example('hurevo-skills add hurevo-laravel hurevo-project-rules')
-  .example('hurevo-skills add hurevo-ai-solution --global')
-  .example('hurevo-skills add hurevo-automation --agent claude')
   .action(async (skills, opts) => {
     const { add } = await import('./src/commands/add.js');
     await add(skills, opts);
