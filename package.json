@@ -1,6 +1,6 @@
 {
   "name": "@hurevo/skills",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hurevo AI coding skills manager for OpenCode, Claude Code, Cursor, and Windsurf",
   "type": "module",
   "bin": {
