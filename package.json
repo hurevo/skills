@@ -33,7 +33,7 @@
   "author": "Hurevo",
   "license": "MIT",
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
